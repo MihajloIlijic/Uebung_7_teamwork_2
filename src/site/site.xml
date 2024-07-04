@@ -1,0 +1,13 @@
+<project name="Drinks Documentation Demo">
+    <publishDate position="right"/>
+    <version position="left"/>
+    <body>
+        <menu name="Overview">
+            <item name="Introduction" href="index.html"/>
+            <item name="Mostafa" href="mostafa_shikhahmad.html"/>
+            <item name="Mihajlo" href="mihajlo_ilijic.html"/>
+
+        </menu>
+        <menu ref="reports"/>
+    </body>
+</project>
