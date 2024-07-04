@@ -1,4 +1,4 @@
-class queue<T extends Drink> {
+ class queue<T extends Drink> {
 
     int front = -1, rear = -1;
 
