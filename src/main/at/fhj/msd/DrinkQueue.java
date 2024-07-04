@@ -2,7 +2,6 @@
  class queue<T extends Drink> {
 
 
-
 /**
  * A generic queue implementation for objects that extend the Drink class.
  *
