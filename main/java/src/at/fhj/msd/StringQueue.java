@@ -14,7 +14,7 @@ public class StringQueue implements IQueue {
   private int maxSize = 5;
 
   public StringQueue(int maxsize) {
-    maxSize = maxSize;
+    this.maxSize = maxSize;
   }
 
   @Override
@@ -31,8 +31,8 @@ public class StringQueue implements IQueue {
   public String poll() {
     String element = peek();
 
-    if (elements.size() == 0) {
-      elements.remove(0);
+    if (elements.size() > 0) {
+      elements.remove();
     }
 
     return element;
@@ -68,4 +68,4 @@ public class StringQueue implements IQueue {
     return element;
   }
 
-}s
+}
