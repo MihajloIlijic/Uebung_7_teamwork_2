@@ -18,6 +18,18 @@
             </roles>
             <timezone>Europe/Vienna</timezone>
         </developer>
+
+        <developer>
+            <id>mostafaShikhAhmad</id>
+            <name>Mostafa Shikh Ahmad</name>
+            <email>mostafa.shikhahmad@edu.fh-joanneum.at</email>
+            <organization>FH Joanneum</organization>
+            <organizationUrl>https://www.fh-joanneum.at</organizationUrl>
+            <roles>
+                <role>Student</role>
+            </roles>
+            <timezone>Europe/Vienna</timezone>
+        </developer>
     </developers>
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
