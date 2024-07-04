@@ -33,6 +33,54 @@
                 A.add(X);
         }
     }
+    void dequeue()
+    {
+
+        if (this.empty())
+
+
+            System.out.println("Queue is already empty");
+
+
+        else if (front == rear) {
+
+
+            front = rear = -1;
+        }
+
+
+        else {
+
+
+            rear++;
+        }
+    }
+
+
+    boolean empty()
+    {
+
+        if (front == -1 && rear == -1)
+            return true;
+        return false;
+    }
+
+    public String toString()
+    {
+        if (this.empty())
+            return "";
+
+        String Ans = "";
+
+        for (int i = rear; i < front; i++) {
+            Ans += String.valueOf(A.get(i)) + "->";
+        }
+
+        Ans += String.valueOf(A.get(front));
+
+        return Ans;
+    }
+
 
 
 }
